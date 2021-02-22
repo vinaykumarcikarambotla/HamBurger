@@ -1,0 +1,31 @@
+.testShowVal {
+    display: block;
+}
+
+.testHideVal {
+    display: none;
+}
+
+.product {
+    height: 400px;
+    width: 270px;
+    float: left;
+    background-color: gray;
+    border-radius: 10px;
+    margin: 25px;
+}
+
+.Pimg {
+    height: 250px;
+    width: 270px;
+}
+
+.child {
+    margin-left: 15px;
+    display: none;
+}
+
+.product:hover .child {
+    display: block;
+    /* height: 600px; */
+}
